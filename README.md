@@ -1,4 +1,4 @@
-# 2048
+# [2048](https://xlearner.github.io/2048/2048)
 网页版2048小游戏
 动画操作       animation.js <br>
 游戏逻辑       game.js<br>
