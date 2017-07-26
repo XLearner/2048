@@ -104,3 +104,11 @@ header p{
 #restartgamebutton:hover {
     background-color: #9f8b77;
 }
+
+.footer{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+	color:#aaa;
+}
