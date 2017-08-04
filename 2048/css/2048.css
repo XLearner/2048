@@ -106,13 +106,13 @@ header p{
 }
 
 .myKeyEvent{
-	width: 200px;
-	height: 200px;
+	width: 400px;
+	height: 400px;
 	position: relative;
 	bottom: 10px;
 	left: 50%;
 	z-index: 999;
-	margin-left: -100px;
+	margin-left: -200px;
 }
 #myUpKey{
 	width: 80px;
@@ -120,7 +120,7 @@ header p{
 	background-image: url("../images/Uicon.png");
 	position: absolute;
 	top: 0;
-	left: 60px;
+	left: 160px;
 }
 #myUpKey:hover{
 	background: url("../images/Uicon_ac.png");
@@ -132,7 +132,7 @@ header p{
 	background: url('../images/Dicon.png');
 	position: absolute;
 	bottom: 0;
-	left: 60px;
+	left: 160px;
 }
 #myDownKey:hover{
 	background: url("../images/Dicon_ac.png");
@@ -143,7 +143,7 @@ header p{
 	height: 80px;
 	background: url('../images/Licon.png');
 	position: absolute;
-	top: 60px;
+	top: 160px;
 	left: 0;
 }
 #myLeftKey:hover{
@@ -155,7 +155,7 @@ header p{
 	height: 80px;
 	background: url('../images/Ricon.png');
 	position: absolute;
-	top: 60px;
+	top: 160px;
 	right: 0;
 }
 #myRightKey:hover{
