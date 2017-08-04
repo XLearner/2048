@@ -48,6 +48,42 @@ $(document).keydown(function(event){	//event是keydown事件自带的
 			break;
 	}
 });
+// 按键
+$(document).ready(function(){
+	var mykey = $('.mykey');
+	mykey.each(function(key, value){
+		$(value).bind('click', function(){
+			switch(this.id) {
+				case 'myUpKey':
+					if(moveUp()){
+						setTimeout("generateOneNumber()", 210);
+		                setTimeout("isgameover()", 300);
+					}
+					break;
+				case 'myDownKey':
+					if(moveDown()){
+						setTimeout("generateOneNumber()", 210);
+		                setTimeout("isgameover()", 300);
+					}
+					break;
+				case 'myLeftKey':
+					if(moveLeft()){
+						setTimeout("generateOneNumber()", 210);
+		                setTimeout("isgameover()", 300);
+					}
+					break;
+				case 'myRightKey':
+					if(moveRight()){
+						setTimeout("generateOneNumber()", 210);
+		                setTimeout("isgameover()", 300);
+					}
+					break;
+			}
+		})
+	});
+});
+
+
 function moveLeft(){
 	//返回值是Boolean类型，判断是否可以向左移
 	if(!canMoveLeft(board)){
