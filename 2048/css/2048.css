@@ -105,10 +105,59 @@ header p{
     background-color: #9f8b77;
 }
 
-.footer{
-    width: 300px;
-    height: 200px;
-    margin: 0 auto;
-    text-align: center;
-	color:#aaa;
+.myKeyEvent{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	bottom: 10px;
+	left: 50%;
+	z-index: 999;
+	margin-left: -100px;
+}
+#myUpKey{
+	width: 80px;
+	height: 50px;
+	background-image: url("../images/Uicon.png");
+	position: absolute;
+	top: 0;
+	left: 60px;
+}
+#myUpKey:hover{
+	background: url("../images/Uicon_ac.png");
+}
+
+#myDownKey{
+	width: 80px;
+	height: 50px;
+	background: url('../images/Dicon.png');
+	position: absolute;
+	bottom: 0;
+	left: 60px;
+}
+#myDownKey:hover{
+	background: url("../images/Dicon_ac.png");
+}
+
+#myLeftKey{
+	width: 50px;
+	height: 80px;
+	background: url('../images/Licon.png');
+	position: absolute;
+	top: 60px;
+	left: 0;
+}
+#myLeftKey:hover{
+	background: url("../images/Licon_ac.png");
+}
+
+#myRightKey{
+	width: 50px;
+	height: 80px;
+	background: url('../images/Ricon.png');
+	position: absolute;
+	top: 60px;
+	right: 0;
+}
+#myRightKey:hover{
+	background: url("../images/Ricon_ac.png");
 }
